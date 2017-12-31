@@ -15,7 +15,7 @@ export class CCExpiryFormatDirective {
 
     	// call lib functions
         Payment.fns.formatCardExpiry(element);
-        Payment.fns.restrictNumeric(element);
+        Payment.restrictNumeric(element);
     }
 
 }
