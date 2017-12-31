@@ -15,7 +15,7 @@ export class CCCvcFormatDirective {
 
     	// call lib functions
         Payment.fns.formatCardCVC(element);
-        Payment.fns.restrictNumeric(element);
+        Payment.restrictNumeric(element);
     }
 
 }
