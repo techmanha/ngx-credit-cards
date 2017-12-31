@@ -21,7 +21,7 @@ export class CCNumberFormatDirective {
 
     	// call lib functions
         Payment.fns.formatCardNumber(element);
-        Payment.fns.restrictNumeric(element);
+        Payment.restrictNumeric(element);
 	}
 
 	@HostListener('keypress', ['$event']) onKeypress(e) {
