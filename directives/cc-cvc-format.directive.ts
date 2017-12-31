@@ -14,7 +14,7 @@ export class CCCvcFormatDirective {
     	let element = this.el.nativeElement;
 
     	// call lib functions
-        Payment.fns.formatCardCVC(element);
+        Payment.formatCardCVC(element);
         Payment.restrictNumeric(element);
     }
 
